@@ -23,11 +23,13 @@ El proyecto organiza el flujo completo del taller en 3 perfiles operativos conec
 ## Cómo instalarlo en un servidor local (XAMPP)
 1. Descarga o clona este repositorio y guarda la carpeta del proyecto dentro de `C:\xampp\htdocs\`.
 2. Abre el panel de control de XAMPP e inicia los servicios de Apache y MySQL.
+3. Accede a `http://localhost/phpmyadmin/`, crea una base de datos llamada `dialogos_calidad` e importa el archivo `dialogos_calidad.sql`.
+4. Entra a `http://localhost/phpmyadmin/`, crea una base de datos llamada `dialogos_calidad` e importa el archivo `dialogos_calidad.sql`.
+5. Verifica que los datos de acceso en `conexion.php` coincidan con tu configuración local (por defecto usuario `root` y contraseña vacía).
+6. Abre tu navegador y entra a `http://localhost/nombre_de_tu_carpeta/index.php`.
 
 ---
 
 **Autor:** Mario Alberto Ramírez Ochoa  
 **Programa:** Prácticas Profesionales • Convocatoria #12 — Ingeniería en Desarrollo de Software
-4. Entra a `http://localhost/phpmyadmin/`, crea una base de datos llamada `dialogos_calidad` e importa el archivo `dialogos_calidad.sql`.
-5. Verifica que los datos de acceso en `conexion.php` coincidan con tu configuración local (por defecto usuario `root` y contraseña vacía).
-6. Abre tu navegador y entra a `http://localhost/nombre_de_tu_carpeta/index.php`.
+
